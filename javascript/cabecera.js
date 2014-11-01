@@ -8,6 +8,11 @@ window.onload = function() {
 					"./images/index/fachada7.jpg"];
 	var i = 0;
 
+    for(var j = 1; j < images.length; j++) {
+    	var img = new Image();
+    	img.src = images[j];
+	}
+
 	setInterval(function() {
 		if ((i + 1) >= images.length) {
 			i = 0;
