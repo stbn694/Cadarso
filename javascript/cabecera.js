@@ -1,8 +1,8 @@
 window.onload = function() {
-	var images = [	"./images/index/fachada.jpg",
-					"./images/index/fachada2.jpg",
+	var images = [	"./images/index/fachada.JPG",
+					"./images/index/fachada2.JPG",
 					"./images/index/fachada4.jpg",
-					"./images/index/fachada3.jpg",
+					"./images/index/fachada3.JPG",
 					"./images/index/fachada5.jpg",
 					"./images/index/fachada6.jpg",
 					"./images/index/fachada7.jpg"];
