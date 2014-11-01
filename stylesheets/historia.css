@@ -1,0 +1,43 @@
+header {
+	background-image: url("../images/colexio/historia/construccion.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+article {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	width: 1000px;
+	margin: 0 auto 500px auto;
+}
+
+article figure {
+	float: left;
+	width: 30%;
+	margin: 15px;
+}
+
+article figure figcaption {
+	font-size: 75%;
+	font-style: italic;
+}
+
+article img {
+	width: 100%;
+}
+
+.footer-bcg {
+	clear: both;
+}

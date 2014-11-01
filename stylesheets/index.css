@@ -1,0 +1,63 @@
+header {
+	background-image: url("../images/index/fachada.jpg");
+	transition: background 1s linear;
+	background-position: center;
+	height: 750px;
+	position: relative;
+}
+
+#left-arrow {
+	height: 150px;
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	margin-top: -75px;
+	left: 10px;
+	background-image: url("../images/index/left_normal.svg");
+	background-size: 100% 100%;
+}
+
+#right-arrow {
+	height: 150px;
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	margin-top: -75px;
+	right: 10px;
+	background-image: url("../images/index/right_normal.svg");
+	background-size: 100% 100%;
+}
+
+#left-arrow:hover {
+	background-image: url("../images/index/left_over.svg");
+	cursor: pointer;
+}
+
+#right-arrow:hover {
+	background-image: url("../images/index/right_over.svg");
+	cursor: pointer;
+}
+
+#title {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	top: 50%;
+	margin: -200px auto 0 auto;
+}
+
+#title img {
+	height: 130px;
+}
+
+#rc {
+	margin-top: 0;
+	font-size: 200%;
+	text-shadow: 3px 3px #000000;
+}

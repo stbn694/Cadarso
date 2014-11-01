@@ -1,0 +1,147 @@
+body {
+	background-image: url("../images/rexistro/fondo.jpg");
+	background-size: cover;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	font-family: "Open Sans", "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+body, header * {
+	margin: 0px;
+}
+
+header {
+	padding-top: 70px;
+}
+
+#logo {
+	width: 40px;
+	position: fixed;
+	top: 20px;
+	right: 40px;
+}
+
+#logo img {
+	width: 100%;
+}
+
+.main {
+	width: 400px;
+	/*margin: 0 200px;*/
+	margin: 0 auto;
+}
+
+#title {
+	padding: 40px 0;
+	text-align: center;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 400px;
+	/*margin: 0 200px;*/
+	margin: 0 auto;
+}
+
+form label {
+	text-align: left;
+	color: #BA3838;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+form label i {
+	font-style: normal;
+	font-size: 16px;
+	color: #FA0000;
+}
+
+form p {
+	margin: 0;
+}
+
+form p > * {
+	display: block;
+}
+
+.error-msg {
+	color: #FFFFFF;
+	margin: 0;
+	text-align: right;
+	visibility: hidden;
+	font-weight: lighter;
+}
+
+form input {
+	width: 380px;
+	height: 50px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: rgba(186, 56, 56, 0.3);
+	padding: 0 10px;
+	border: none;
+}
+
+form input[type="submit"] {
+	width: 400px;
+	text-align: center;
+	background-color: rgba(6, 39, 59, 0.7);
+	margin-top: 20px;
+}
+
+form input:focus {
+	outline: none;
+	background-color: rgba(186, 56, 56, 1.0);
+	transition: border-color 0.3s linear;
+}
+
+form input[type="submit"]:focus {
+	background-color: #064A75;
+}
+
+form input[type="submit"]:hover {
+	background-color: #064A75;
+	cursor: pointer;
+}
+
+.mensaxe {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 15%;
+}
+
+.mensaxe p {
+	text-align: center;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.mensaxe a {
+	text-decoration: none;
+}
+
+#voltar {
+	width: 200px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color: #BA3838;
+	text-align: center;
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 50px auto;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#voltar:hover {
+	background-color: #FFFFFF;
+	color: #BA3838;
+	border: 1px solid #BA3838;
+	font-weight: normal;
+}

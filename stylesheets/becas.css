@@ -1,0 +1,47 @@
+header {
+	background-image: url("../images/actividades/becas/principal.jpg");
+	background-position: 0 -20px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.oscuro .large a {
+	text-decoration: none;
+	color: #BA3838;
+	margin: 5px;
+	padding: 5px;
+}
+
+.oscuro .large a:hover {
+	background-color: #BA3838;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.oscuro .large p:nth-child(4) {
+	text-align: right;
+}
+
+.claro article {
+	text-align: left;
+	width: 30%;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.clearer {
+	clear: both;
+}

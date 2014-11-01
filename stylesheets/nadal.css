@@ -1,0 +1,30 @@
+header {
+	background-image: url("../images/actividades/nadal/principal.jpg");
+	background-position: 0 -450px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.art2 figure {
+	position: relative;
+	top: 30px;
+}
+
+.art2 figure img {
+	width: 49%;
+}
+
+.clearer {
+	clear: both;
+}

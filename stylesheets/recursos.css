@@ -1,0 +1,51 @@
+header {
+	background-image: url("../images/colexio/recursos/papeleo.jpg");
+	background-position: 0 -320px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.large h2 {
+	margin-top: 0;
+}
+
+.cuadrados {
+	list-style: none;
+	padding: 0;
+}
+
+.cuadrados li {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid #BA3838;
+	padding: 20px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.cuadrados li a {
+	text-decoration: none;
+	color: #BA3838;
+}
+
+.cuadrados li:hover {
+	background-color: #BA3838;
+}
+
+.cuadrados li:hover a {
+	color: #FFFFFF;
+}

@@ -1,0 +1,51 @@
+header {
+	background-image: url("../images/proxectos/promocion/principal.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.large ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.large ul li {
+	font-weight: lighter;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.large ul li b {
+	color: #BA3838;
+}
+
+.large ul {
+	border-left: 2px solid #BA3838;
+	margin-left: 20px;
+}
+
+.large p a {
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #BA3838;
+}
+
+.large p a:hover {
+	color: #FFFFFF;
+	background-color: #BA3838;
+	border-radius: 5px;
+}

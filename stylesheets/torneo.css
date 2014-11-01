@@ -1,0 +1,73 @@
+header {
+	background-image: url("../images/proxectos/torneo/principal.jpg");
+	background-position: 0 -100px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 0;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+#title span {
+	font-size: 50%;
+}
+
+.descricion {
+	background-color: rgba(212, 122, 85, 0.15);
+}
+
+.large ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.large ul li {
+	font-weight: lighter;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.large ul li b {
+	color: #BA3838;
+}
+
+.art1 ul {
+	float: left;
+	border-left: 2px solid #BA3838;
+	margin-left: 30px;
+}
+
+.art1 section {
+	width: 60%;
+	float: right;
+	position: relative;
+	top: 35px;
+}
+
+.art1 figure {
+	margin: 5px;
+	width: 30%;
+	float: left;
+}
+
+.art1 figure img {
+	width: 100%;
+}
+
+.art1 figure figcaption {
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.claro, .oscuro, .footer-bcg {
+	clear: both;
+}

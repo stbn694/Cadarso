@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="../../images/favicon.png">
+		<script src="../../javascript/check-rex.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/rexistro.css">
+		<title>Rexistro - Colexio Maior Rodríguez Cadarso</title>
+		<meta charset="UTF-8"/>
+		<meta name="keywords" content="cadarso, usc, santiago, cmurc, sur"/>
+		<meta name="description" content="Páxina do Colexio Maior universitario Rodríguez Cadarso"/>
+		<meta name="author" content="Esteban Gerpe Viéitez"/>
+		<meta name="geo.placename" content="Santiago de Compostela, Galicia, Spain"/>
+	</head>
+	<body>
+		<div id="logo">
+			<a href="../../index.html"><img src="../../images/logo2.svg" alt="Logo"/></a>
+		</div>
+		<header>
+			<div id="title">
+				<h1>Rexistro</h1>
+			</div>
+		</header>
+		<div class="main">
+			<form id="reg-form" action="./confirmar.html" onsubmit="return checkForm(this);">
+				<p>
+					<label for="nome">Nome: <i>*</i></label>
+					<input type="text" id="nome" autofocus="autofocus" oninput="checkName(this);">
+					<p class="error-msg" id="err-name">O nome non é válido</p>
+				</p>
+				<p>
+					<label for="apellidos">Apelidos: <i>*</i></label>
+					<input type="text" id="apelidos" oninput="checkAp(this);">
+					<p class="error-msg" id="err-ap">Os apelidos non son válidos</p>
+				</p>
+				<p>
+					<label for="tel">Teléfono:</label>
+					<input type="text" id="tel" oninput="checkTel(this);">
+					<p class="error-msg" id="err-tel">O teléfono non é válido</p>
+				</p>
+				<p>
+					<label for="email">Correo electrónico: <i>*</i></label>
+					<input type="email" id="email" oninput="checkMail(this);">
+					<p class="error-msg" id="err-email">O correo electrónico non é válido</p>
+				</p>
+				<p>
+					<input type="submit" id="reg" value="Enviar">
+				</p>
+			</form>
+		</div>
+	</body>
+</html>

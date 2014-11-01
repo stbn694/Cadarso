@@ -1,0 +1,69 @@
+header {
+	background-image: url("../images/actividades/viaxeiros/principal.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.oscuro .large ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.oscuro .large ul li {
+	display: inline-block;
+}
+
+.oscuro .large ul li div {
+	margin: 5px;
+	text-align: center;
+}
+
+.oscuro .large ul li a {
+	text-decoration: none;
+	color: #BA3838;
+	padding: 5px;
+}
+
+.oscuro .large ul li a:hover {
+	color: #FFFFFF;
+	border-radius: 5px;
+	background-color: #BA3838;
+}
+
+.claro .large figure {
+	position: static;
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.claro .large figure img {
+	float: left;
+	width: 32.9%;
+	margin: 0 2px 0 2px;
+}
+
+.claro {
+	height: 550px;
+}
+
+.footer-bcg {
+	clear: both;
+}
+
+.clearer {
+	clear: both;
+}

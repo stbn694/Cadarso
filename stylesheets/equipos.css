@@ -1,0 +1,40 @@
+header {
+	background-image: url("../images/proxectos/equipos/principal.jpg");
+	background-position: 0 -350px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+#title h1 {
+	font-size: 70px;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+	margin: 0;
+}
+
+#title p {
+	font-size: 20px;
+	text-shadow: 1px 1px #000000;
+	font-weight: bold;
+	margin: 0;
+}
+
+.art2 {
+	height: 400px;
+}
+
+.art1, .art3 {
+	height: 430px;
+}
+
+.claro, .oscuro, .footer-bcg {
+	clear: both;
+}
