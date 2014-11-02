@@ -52,7 +52,7 @@ function checkForm(form) {
 		result = false;
 	}
 
-	form.nome.focus();
+	if(!result) form.nome.focus();
 	return result;
 }
 

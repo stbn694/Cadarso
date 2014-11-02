@@ -1,5 +1,5 @@
-Web-Cadarso
-===========
+Web do Cadarso
+==============
 
 Páxina web do C.M. Rodríguez Cadarso
 
