@@ -1,9 +1,11 @@
 var nome_er = /^[^\s]{2,}(\s[^\s]{2,})+$/;
-var tel_er = /^[679][0-9]{7,8}$/;
+var tel_er = /^[6798][0-9]{8}$/;
 var email_er = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+//var email_er = /^.+@.+\..+$/;
+//var email_er = /@/;
 var strong_pass = /^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\W).*$/;
 var medium_pass = /^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$/;
-var normal_pass = /^.{6,}$/;
+var normal_pass = /^(?=.{6,}).*$/;
 
 function checkForm(form) {
 	var result = true;

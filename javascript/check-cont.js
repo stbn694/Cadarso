@@ -1,5 +1,7 @@
 var nome_er = /^[^\s]{2,}(\s[^\s]{2,})*$/;
 var email_er = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+//var email_er = /^.+@.+\..+$/;
+//var email_er = /@/;
 var habitacion_er = /^[1-4]0[0-9]$|^[1-4]1[0-7]$/;
 
 function checkForm(form) {
