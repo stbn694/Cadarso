@@ -1,14 +1,17 @@
-var nome_er = /^[^\s]{2,}(\s[^\s]{2,})*$/;
+var nome_er = /^[^\s]{2,}(\s[^\s]{2,})+$/;
 var tel_er = /^[679][0-9]{7,8}$/;
 var email_er = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+var strong_pass = /^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\W).*$/;
+var medium_pass = /^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$/;
+var normal_pass = /^.{6,}$/;
 
 function checkForm(form) {
 	var result = true;
 
 	document.getElementById("err-name").style.visibility = "hidden";
-	document.getElementById("err-ap").style.visibility = "hidden";
 	document.getElementById("err-tel").style.visibility = "hidden";
 	document.getElementById("err-email").style.visibility = "hidden";
+	document.getElementById("err-pass").style.visibility = "hidden";
 
 	if(form.nome.value.length < 1) {
 		document.getElementById("err-name").innerHTML = "Debe proporcionar un nome";
@@ -18,17 +21,6 @@ function checkForm(form) {
 	else if(!nome_er.test(form.nome.value)) {
 		document.getElementById("err-name").innerHTML = "Non é un nome válido";
 		document.getElementById("err-name").style.visibility = "visible";
-		result = false;
-	}
-
-	if(form.apelidos.value.length < 1) {
-		document.getElementById("err-ap").innerHTML = "Debe proporcionar os apelidos";
-		document.getElementById("err-ap").style.visibility = "visible";
-		result = false;
-	}
-	else if(!nome_er.test(form.apelidos.value)) {
-		document.getElementById("err-ap").innerHTML = "Os apelidos non son válidos";
-		document.getElementById("err-ap").style.visibility = "visible";
 		result = false;
 	}
 
@@ -49,6 +41,17 @@ function checkForm(form) {
 		result = false;
 	}
 
+	if(form.pass.value.length < 1) {
+		document.getElementById("err-pass").innerHTML = "Debe proporcionar un contrasinal";
+		document.getElementById("err-pass").style.visibility = "visible";
+		result = false;
+	}
+	else if(!normal_pass.test(form.pass.value)) {
+		document.getElementById("err-pass").innerHTML = "O contrasinal é demasiado débil";
+		document.getElementById("err-pass").style.visibility = "visible";
+		result = false;
+	}
+
 	form.nome.focus();
 	return result;
 }
@@ -60,16 +63,6 @@ function checkName(nome) {
 	}
 	else {
 		nome.style.borderRight = "none";
-	}
-}
-
-function checkAp(ap) {
-	document.getElementById("err-ap").style.visibility = "hidden";
-	if(nome_er.test(ap.value)) {
-		ap.style.borderRight = "10px solid rgb(67, 161, 16)";
-	}
-	else {
-		ap.style.borderRight = "none";
 	}
 }
 
@@ -90,5 +83,24 @@ function checkMail(email) {
 	}
 	else {
 		email.style.borderRight = "none";
+	}
+}
+
+function checkPass(pass) {
+	document.getElementById("err-pass").style.visibility = "hidden";
+	if(strong_pass.test(pass.value)) {
+		pass.style.borderRight = "10px solid rgb(67, 161, 16)";
+	}
+	else if(medium_pass.test(pass.value)) {
+		pass.style.borderRight = "10px solid rgb(212, 122, 85)";
+	}
+	else if(normal_pass.test(pass.value)) {
+		pass.style.borderRight = "10px solid rgb(212, 19, 19)";
+	}
+	else if(pass.value.length > 0) {
+		pass.style.borderRight = "10px solid rgb(186, 0, 0)";
+	}
+	else {
+		pass.style.borderRight = "none";
 	}
 }

@@ -25,14 +25,9 @@
 		<div class="main">
 			<form id="reg-form" action="./confirmar.html" onsubmit="return checkForm(this);">
 				<p>
-					<label for="nome">Nome: <i>*</i></label>
+					<label for="nome">Nome completo: <i>*</i></label>
 					<input type="text" id="nome" autofocus="autofocus" oninput="checkName(this);">
 					<p class="error-msg" id="err-name">O nome non é válido</p>
-				</p>
-				<p>
-					<label for="apellidos">Apelidos: <i>*</i></label>
-					<input type="text" id="apelidos" oninput="checkAp(this);">
-					<p class="error-msg" id="err-ap">Os apelidos non son válidos</p>
 				</p>
 				<p>
 					<label for="tel">Teléfono:</label>
@@ -43,6 +38,11 @@
 					<label for="email">Correo electrónico: <i>*</i></label>
 					<input type="email" id="email" oninput="checkMail(this);">
 					<p class="error-msg" id="err-email">O correo electrónico non é válido</p>
+				</p>
+				<p>
+					<label for="pass">Contrasinal: <i>*</i></label>
+					<input type="password" id="pass" oninput="checkPass(this);">
+					<p class="error-msg" id="err-pass">A contraseña non é válida</p>
 				</p>
 				<p>
 					<input type="submit" id="reg" value="Enviar">
