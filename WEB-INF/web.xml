@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	 version="3.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <display-name>CM Rodríguez Cadarso</display-name>
+    <description>
+        CM Rodríguez Cadarso
+    </description>
+    
+    <context-param>
+        <param-name>webMaster</param-name>
+        <param-value>Esteban Gerpe Viéitez</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>Contacto</servlet-name>
+        <servlet-class>respContacto</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Contacto</servlet-name>
+        <url-pattern>/documents/colexio/respContacto</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Rexistro</servlet-name>
+        <servlet-class>Rexistro</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Rexistro</servlet-name>
+        <url-pattern>/documents/rexistro/rexistro</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Tenda</servlet-name>
+        <servlet-class>Tenda</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Tenda</servlet-name>
+        <url-pattern>/documents/tenda/tenda</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Engadir</servlet-name>
+        <servlet-class>Engadir</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Engadir</servlet-name>
+        <url-pattern>/documents/tenda/engadir</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Carro</servlet-name>
+        <servlet-class>Carro</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Carro</servlet-name>
+        <url-pattern>/documents/tenda/carro</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Tramitar</servlet-name>
+        <servlet-class>Tramitar</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Tramitar</servlet-name>
+        <url-pattern>/documents/tenda/tramitar</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Comprar</servlet-name>
+        <servlet-class>Comprar</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Comprar</servlet-name>
+        <url-pattern>/documents/tenda/comprar</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CerrarSesion</servlet-name>
+        <servlet-class>CerrarSesion</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CerrarSesion</servlet-name>
+        <url-pattern>/documents/tenda/cerrarSesion</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="257.5"
+   height="265.91629"
+   viewBox="0 0 206 212.73303"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg3001"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="carro.svg">
+  <defs
+     id="defs3015" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview3013"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.6993464"
+     inkscape:cx="148.97692"
+     inkscape:cy="126.41904"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3001" />
+  <metadata
+     id="metadata3003">
+Created by potrace 1.11, written by Peter Selinger 2001-2013
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="matrix(0.1,0,0,-0.1,-47,244.82548)"
+     id="g3005"
+     style="fill:#ffffff;stroke:none;fill-opacity:1">
+    <path
+       d="m 470,2443 c 0,-5 18,-49 41,-100 l 42,-92 55,-3 55,-3 117,-443 118,-443 -34,-51 c -62,-92 -81,-215 -48,-311 20,-59 82,-129 137,-156 43,-21 54,-21 780,-21 l 737,0 0,100 0,100 -674,0 c -443,0 -684,4 -702,10 -39,15 -53,39 -54,86 0,49 28,90 74,109 17,7 330,65 696,130 366,65 666,119 667,120 3,2 53,633 53,665 0,20 0,20 -798,20 l -797,0 -45,143 -45,142 -188,3 c -103,1 -187,-1 -187,-5 z"
+       id="path3007"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="m 2193,789 c -58,-11 -96,-32 -135,-79 -81,-93 -76,-221 12,-308 51,-51 87,-66 160,-66 134,0 230,94 230,226 -1,143 -128,251 -267,227 z"
+       id="path3009"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="m 1119,752 c -168,-87 -168,-317 0,-404 156,-81 332,29 332,207 0,169 -180,276 -332,197 z"
+       id="path3011"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+</svg>

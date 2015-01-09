@@ -1,0 +1,39 @@
+header {
+	background-image: url("../images/proxectos/voz/principal.jpg");
+	background-position: 0 -300px;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.claro .large figure {
+	position: static;
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.claro .large figure img {
+	float: left;
+	width: 32.9%;
+	margin: 0 2px 0 2px;
+}
+
+.footer-bcg {
+	clear: both;
+}
+
+.clearer {
+	clear: both;
+}

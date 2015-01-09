@@ -1,0 +1,202 @@
+html {
+    height: 100%;
+    background-color: rgba(186, 56, 56, 0.15);
+}
+
+header {
+	background-image: url("../images/tenda/tendavirtual.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.list-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.list-container > p {
+	font-weight: lighter;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+tbody img {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+tbody td {
+	padding: 5px 10px;
+	text-align: center;
+	border-top: 1px solid #06273B;
+	border-bottom: 1px solid #06273B;
+}
+
+thead th {
+	padding: 15px 10px;
+}
+
+tbody td:nth-child(2) {
+	width: 500px;
+	text-align: left;
+}
+
+tbody td:nth-child(3), tbody td:nth-child(4) {
+	padding: 5px 50px;
+}
+
+#total td:nth-child(2), #total-iva td:nth-child(2) {
+	text-align: right;
+	font-weight: bold;
+	color: #06273B;
+}
+
+#total td, #total-iva td {
+	padding: 20px 10px;
+}
+
+#total td:nth-child(3), #total-iva td:nth-child(3) {
+	font-weight: bold;
+}
+
+#total-iva td:nth-child(3) {
+	background-color: #06273B;
+	color: #FFFFFF;
+}
+
+#total-iva td {
+	border: none;
+}
+
+#total td {
+	border-bottom: none;
+}
+
+.accions {
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.accions p {
+	display: inline-block;
+	border-radius: 5px;
+	width: 200px;
+	margin: 10px;
+	padding: 12px 0;
+}
+
+#volver-inicio {
+	background-color: #BA3838;
+	color: #FFFFFF;
+}
+
+#volver-tenda {
+	background-color: #064A75;
+	color: #FFFFFF;
+}
+
+#volver-inicio:hover {
+	background-color: #862828;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#volver-tenda:hover {
+	background-color: #06273B;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.info {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.info p {
+	display: inline-block;
+	width: 200px;
+	margin: 5px 10px;
+	padding: 5px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.info .label {
+	text-align: right;
+	font-weight: bold;
+	color: #BA3232;
+}
+
+#session * {
+    display: inline-block;
+}
+
+#cerrar {
+    margin: 0;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    background-image: url("../images/tenda/eliminar_producto.svg");
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 98px;
+    right: 10px;
+}
+
+#cerrar:hover {
+    background-color: #064A75;
+    cursor: pointer;
+}
+
+#identification {
+    top: 95px;
+    right: -10px;
+    position: absolute;
+    min-width: 100px;
+    background-color: #06273B;
+    color: #FFFFFF;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+#identification p {
+    margin: 0;
+}
+
+#identification p b {
+    font-weight: bold;
+}

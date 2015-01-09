@@ -1,0 +1,172 @@
+html {
+    height: 100%;
+    background-color: rgba(186, 56, 56, 0.15);
+}
+
+header {
+	background-image: url("../images/tenda/tendavirtual.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+#title {
+	padding-top: 250px;
+	text-align: left;
+	font-size: 45px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.item-container {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.item {
+	width: 400px;
+	background-color: #06273B;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 48px 100px 45px;
+	border: 1px solid #06273B;
+}
+
+.item img {
+	width: 100%;
+	margin: 0;
+}
+
+.item .prezo {
+	width: 100%;
+	background-color: #FFFFFF;
+	color: #06273B;
+	padding: 5px 0;
+}
+
+.item form {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+form input {
+	border: none;
+}
+
+form #uds {
+	width: 50px;
+	padding: 5px;
+    text-align: center;
+}
+
+form #engadir {
+	padding: 5px;
+	margin-left: 10px;
+	background-color: #064A75;
+	color: #FFFFFF;
+	width: 120px;
+}
+
+form #engadir:hover {
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color: #064A75;
+	font-weight: bold;
+}
+
+#enlace-carro {
+	top: 80px;
+	right: 10px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #064A75;
+	background-image: url("../images/tenda/carro.svg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	border-radius: 100%;
+	z-index: 2;
+}
+
+#enlace-carro:hover {
+	background-color: #06273B;
+}
+
+#cantidade-carro {
+	top: 112px;
+	right: 40px;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #BA3838;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 100%;
+	z-index: 3;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#cantidade-carro p {
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+#session * {
+    display: inline-block;
+}
+
+#cerrar {
+    margin: 0;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    background-image: url("../images/tenda/eliminar_producto.svg");
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 98px;
+    right: 100px;
+}
+
+#cerrar:hover {
+    background-color: #064A75;
+    cursor: pointer;
+}
+
+#identification {
+    top: 95px;
+    right: -10px;
+    position: absolute;
+    min-width: 100px;
+    background-color: #06273B;
+    color: #FFFFFF;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 5px;
+    padding-right: 140px;
+}
+
+#identification p {
+    margin: 0;
+}
+
+#identification p b {
+    font-weight: bold;
+}

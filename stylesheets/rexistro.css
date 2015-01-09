@@ -1,9 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
 	background-image: url("../images/rexistro/fondo.jpg");
 	background-size: cover;
 	background-color: #000000;
 	background-repeat: no-repeat;
 	font-family: "Open Sans", "PT Sans", Helvetica, Arial, sans-serif;
+        height: 100%;
 }
 
 body, header * {
@@ -19,6 +24,7 @@ header {
 	position: fixed;
 	top: 20px;
 	right: 40px;
+        z-index: 5;
 }
 
 #logo img {
@@ -107,11 +113,19 @@ form input[type="submit"]:hover {
 	cursor: pointer;
 }
 
+#container {
+    height: 100%;
+    position: relative;
+}
+
 .mensaxe {
 	width: 1000px;
-	margin: 0 auto;
-	position: relative;
-	margin-top: 15%;
+	margin: 0;
+        position: absolute;               
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
 }
 
 .mensaxe p {
@@ -119,7 +133,7 @@ form input[type="submit"]:hover {
 	font-size: 40px;
 	font-weight: lighter;
 	color: #FFFFFF;
-	margin: 0;
+        margin: 0;
 }
 
 .mensaxe a {
@@ -144,4 +158,75 @@ form input[type="submit"]:hover {
 	color: #BA3838;
 	border: 1px solid #BA3838;
 	font-weight: normal;
+}
+
+.footer-bcg {
+	background-color: #0D0D0D;
+	width: 100%;
+	height: 300px;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.links {
+	display: inline;
+	float: left;
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.links a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.links a:hover {
+	color: #BA3838;
+}
+
+.links li {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	vertical-align: top;
+}
+
+.links li .link-title {
+	padding: 5px;
+	background-color: #BA3838;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.links li ul {
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+.links li ul li {
+	padding: 5px;
+}
+
+footer img {
+	display: block;
+	float: right;
+	width: 70px;
+}
+
+footer .webmaster {
+    text-align: center;
+    font-weight: lighter;
+    color: #BA3838;
+    margin: 0;
+}
+
+.clearer {
+	clear: both;
 }
